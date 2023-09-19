@@ -8,7 +8,7 @@ require('dotenv').config();
 const app = express();
 
 // middleware
-app.use('/',(req,res)=>res.send(<h1>Welcome to Task Manager </h1>);
+app.use('/',(req,res)=>res.send("<h1>Welcome to Task Manager </h1>");
 app.use(express.json());
 
 // routes
